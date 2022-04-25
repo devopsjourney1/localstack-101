@@ -20,7 +20,7 @@ docker run --rm -it -p 4566:4566 -p 4571:4571 localstack/localstack
 
 ## AWSLocal wrapper (Option #1)
 ```
-pip install awslocal-cli
+pip install awscli-local
 awslocal s3api list-buckets --region us-east-1
 ```
 
